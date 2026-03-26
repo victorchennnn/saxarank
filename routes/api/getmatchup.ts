@@ -10,38 +10,38 @@ export const handler = async (
 ): Promise<Response> => {
   const ip = ctx.remoteAddr.hostname;
   const supabase = getSupabaseClient();
+  const oneHourAgo = new Date(Date.now() - ONE_HOUR_IN_MILLISECONDS).toISOString();
 
-  // ** RATE LIMITING ** //
-  const { count, error } = await supabase.from("battle_tokens")
-    .select("*", { count: "exact", head: true }).eq(
-      "ip",
-      ip,
-    ).gte(
-      "created_at",
-      (new Date(Date.now() - ONE_HOUR_IN_MILLISECONDS)).toISOString(),
-    );
-  if (error) {
-    return new Response(error.message, { status: 500 });
+  // ** OPTIMIZATION: Run Rate Limit check and Matchup query in parallel ** //
+  const [rateLimitResult, matchupResult] = await Promise.all([
+    supabase.from("battle_tokens")
+      .select("*", { count: "exact", head: true })
+      .eq("ip", ip)
+      .gte("created_at", oneHourAgo),
+    supabase.from("get_matchup").select(),
+  ]);
+
+  // Check Rate Limit Errors
+  if (rateLimitResult.error) {
+    return new Response(rateLimitResult.error.message, { status: 500 });
   }
-  if (count === null) {
+  if (rateLimitResult.count === null) {
     return new Response("Couldn't retrieve request count", { status: 500 });
   }
-  if (count >= ALLOWED_REQUESTS_PER_HOUR) {
+  if (rateLimitResult.count >= ALLOWED_REQUESTS_PER_HOUR) {
     return new Response("Rate limit exceeded", { status: 429 });
   }
-  // ** RATE LIMITING ** //
 
-  const { data, error: get_matchup_error } = await supabase.from("get_matchup")
-    .select();
-  if (get_matchup_error) {
-    return new Response(get_matchup_error.message, { status: 500 });
+  // Check Matchup Errors
+  if (matchupResult.error) {
+    return new Response(matchupResult.error.message, { status: 500 });
   }
-  if (!data) {
-    return new Response("No data found", { status: 404 });
+  const data = matchupResult.data;
+  if (!data || data.length < 2) {
+    return new Response("No matchup data found", { status: 404 });
   }
 
   const token = crypto.randomUUID();
-  // TODO: should we do something with this error?
   const { error: _create_token_error } = await supabase.from("battle_tokens")
     .insert({
       token,
