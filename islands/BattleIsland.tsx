@@ -5,48 +5,86 @@ import { useEffect, useState } from "preact/hooks";
 export function BattleIsland() {
   const [data, setData] = useState<Club[]>([]);
   const [token, setToken] = useState<string | null>(null);
+  const [nextMatchup, setNextMatchup] = useState<{ data: Club[]; token: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
+  // Helper function to call the API
+  const getNextMatchupFromApi = async (): Promise<{ data: Club[]; token: string } | null> => {
+    try {
+      const res = await fetch("/api/getmatchup");
+      if (!res.ok) throw new Error(await res.text());
+      return await res.json();
+    } catch (err) {
+      console.error("Fetch Matchup Error:", err);
+      return null;
+    }
+  };
+
   const fetchMatchup = async () => {
+    // If we already have a pre-fetched matchup, use it!
+    if (nextMatchup) {
+      setData(nextMatchup.data);
+      setToken(nextMatchup.token);
+      setLoading(false);
+      
+      // Immediately start pre-fetching the NEXT one in the background
+      getNextMatchupFromApi().then((res) => {
+        if (res) setNextMatchup(res);
+      });
+      return;
+    }
+
+    // Fallback if no pre-fetched matchup exists (e.g., first load)
     setLoading(true);
-
-    const data: Matchup = await fetch("/api/getmatchup").then((res) =>
-      res.json()
-    ).catch(
-      (error) => setError(error.message),
-    );
-
-    setData(data.data);
-    setToken(data.token);
+    const res = await getNextMatchupFromApi();
+    if (res) {
+      setData(res.data);
+      setToken(res.token);
+      
+      // Now pre-fetch the next one
+      getNextMatchupFromApi().then((next) => {
+        if (next) setNextMatchup(next);
+      });
+    } else {
+      setError("Failed to load matchup");
+    }
     setLoading(false);
   };
 
   const handleBattle = async (
     { winner_id, loser_id }: { winner_id: number; loser_id: number },
   ) => {
-    // Show loading immediately to prevent double-clicking
-    setLoading(true);
+    // 1. Instantly swap to the next matchup (it's already in memory!)
+    if (nextMatchup) {
+      const currentToken = token;
+      
+      // Swap UI state immediately
+      setData(nextMatchup.data);
+      setToken(nextMatchup.token);
+      // Reset nextMatchup so we don't reuse it
+      setNextMatchup(null);
 
-    try {
-      // 1. Submit the battle results
-      const res = await fetch("/api/battle", {
+      // 2. Fire and forget the battle submission in the background
+      fetch("/api/battle", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ winner_id, loser_id, token: currentToken }),
+      }).catch(err => console.error("Battle submission failed:", err));
+
+      // 3. Pre-fetch the NEXT next one in the background
+      getNextMatchupFromApi().then((res) => {
+        if (res) setNextMatchup(res);
+      });
+    } else {
+      // Fallback if user clicks too fast before pre-fetch finishes
+      setLoading(true);
+      await fetch("/api/battle", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ winner_id, loser_id, token }),
       });
-
-      if (!res.ok) {
-        console.error("Failed to submit battle:", await res.text());
-      }
-      
-      // 2. Fetch the next matchup after the battle is processed
       await fetchMatchup();
-    } catch (err) {
-      setError("Failed to process battle. Please try again.");
-      setLoading(false);
     }
   };
 
