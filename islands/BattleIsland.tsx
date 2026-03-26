@@ -22,17 +22,32 @@ export function BattleIsland() {
     setLoading(false);
   };
 
-  const handleBattle = (
+  const handleBattle = async (
     { winner_id, loser_id }: { winner_id: number; loser_id: number },
   ) => {
-    fetch("/api/battle", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ winner_id, loser_id, token }),
-    });
-    fetchMatchup();
+    // Show loading immediately to prevent double-clicking
+    setLoading(true);
+
+    try {
+      // 1. Submit the battle results
+      const res = await fetch("/api/battle", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ winner_id, loser_id, token }),
+      });
+
+      if (!res.ok) {
+        console.error("Failed to submit battle:", await res.text());
+      }
+      
+      // 2. Fetch the next matchup after the battle is processed
+      await fetchMatchup();
+    } catch (err) {
+      setError("Failed to process battle. Please try again.");
+      setLoading(false);
+    }
   };
 
   const getBattleHtml = (loading: boolean, data: Club[]) => {
