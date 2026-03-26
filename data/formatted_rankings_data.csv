@@ -1,0 +1,135 @@
+name,elo,battles,website,levels_url
+Adobe,1016.5843666116541,3682,http://adobe.com,http://levels.fyi/companies/adobe
+Affirm,891.8000268358389,3226,http://affirm.com,http://levels.fyi/companies/affirm
+Airbnb,1189.737253620841,4043,http://airbnb.com,http://levels.fyi/companies/airbnb
+Amazon,1111.8327814016025,4217,http://amazon.com,http://levels.fyi/companies/amazon
+Apple,1156.6521856971979,4474,http://apple.com,http://levels.fyi/companies/apple
+Asana,981.0939436876547,3469,http://asana.com,http://levels.fyi/companies/asana
+Atlassian,1082.272895062717,3852,http://atlassian.com,http://levels.fyi/companies/atlassian
+Blackrock,979.6600267861701,3564,http://blackrock.com,http://levels.fyi/companies/blackrock
+Bloomberg,1073.7198724386963,4127,http://bloomberg.com,http://levels.fyi/companies/bloomberg
+Box,884.9612996189395,3187,http://box.com,http://levels.fyi/companies/box
+ByteDance,1090.6393690183606,3710,http://bytedance.com,http://levels.fyi/companies/bytedance
+Capital One,971.6997885070664,3535,http://capitalone.com,http://levels.fyi/companies/capital-one
+Cisco,815.2905568136973,3443,http://cisco.com,http://levels.fyi/companies/cisco
+Citadel,1196.4867923309016,4662,http://citadel.com,http://levels.fyi/companies/citadel
+Cloudflare,1024.279285775286,3681,http://cloudflare.com,http://levels.fyi/companies/cloudflare
+Coinbase,1079.2767983300319,3543,http://coinbase.com,http://levels.fyi/companies/coinbase
+D.E. Shaw,1127.2989629984843,3788,http://deshaw.com,http://levels.fyi/companies/the-d-e-shaw-group
+Databricks,1185.5429925847027,4734,http://databricks.com,http://levels.fyi/companies/databricks
+Datadog,990.0889473808296,3893,http://datadog.com,http://levels.fyi/companies/datadog
+Docusign,842.9028706632076,3429,http://docusign.com,http://levels.fyi/companies/docusign
+DoorDash,1105.9392469447823,3678,http://doordash.com,http://levels.fyi/companies/doordash
+Dropbox,1065.1616888159022,3491,http://dropbox.com,http://levels.fyi/companies/dropbox
+Duolingo,1069.6968043204545,3442,http://duolingo.com,http://levels.fyi/companies/duolingo
+Ebay,889.8902005875594,3512,http://ebay.com,http://levels.fyi/companies/ebay
+Etsy,786.8785205076178,3186,http://etsy.com,http://levels.fyi/companies/etsy
+Expedia,861.6434638812337,3223,http://expedia.com,http://levels.fyi/companies/expedia
+Figma,1120.7732486386494,3836,http://figma.com,http://levels.fyi/companies/figma
+Five Rings,1091.8587549595863,3551,http://fiverings.com,http://levels.fyi/companies/five-rings
+GitHub,1117.1295238394846,3833,http://github.com,http://levels.fyi/companies/github
+Goldman Sachs,937.0816751997235,3595,http://goldmansachs.com,http://levels.fyi/companies/goldman-sachs
+Google,1226.549146776731,5380,http://google.com,http://levels.fyi/companies/google
+GrubHub,868.7370297546448,3292,http://grubhub.com,http://levels.fyi/companies/grubhub
+HubSpot,853.6924086572876,3294,http://hubspot.com,http://levels.fyi/companies/hubspot
+Hudson River Trading,1235.1639031217753,4515,http://hudsonrivertrading.com,http://levels.fyi/companies/hudson-river-trading
+IBM,841.9110290960248,3598,http://ibm.com,http://levels.fyi/companies/ibm
+Instacart,939.5193314050613,3466,http://instacart.com,http://levels.fyi/companies/instacart
+Jane Street,1174.091588068368,4846,http://janestreet.com,http://levels.fyi/companies/jane-street
+JPMC,850.8733244403489,3400,http://jpmorganchase.com,http://levels.fyi/companies/jpmorgan-chase
+Jump Trading,1163.8467391587965,4174,http://jumptrading.com,http://levels.fyi/companies/jump-trading
+LinkedIn,1219.6348688588896,4360,http://linkedin.com,http://levels.fyi/companies/linkedIn
+Lyft,1163.4629252376965,3612,http://lyft.com,http://levels.fyi/companies/lyft
+Meta,1244.075875233942,4767,http://meta.com,http://levels.fyi/companies/facebook
+Microsoft,1158.2102961295939,4291,http://microsoft.com,http://levels.fyi/companies/microsoft
+MongoDB,1041.5438669124742,3466,http://mongodb.com,http://levels.fyi/companies/mongodb
+Morgan Stanley,870.1229043859437,3603,http://morganstanley.com,http://levels.fyi/companies/morgan-stanley
+Netflix,1199.804778315815,4297,http://netflix.com,http://levels.fyi/companies/netflix
+Nextdoor,818.5365558023773,3337,http://nextdoor.com,http://levels.fyi/companies/nextdoor
+Nuro,996.9722156781729,3440,http://nuro.com,http://levels.fyi/companies/nuro
+Nvidia,1171.7396085350292,4515,http://nvidia.com,http://levels.fyi/companies/nvidia
+Oracle,941.0341548304269,3592,http://oracle.com,http://levels.fyi/companies/oracle
+Palantir,1147.1022491916247,4867,http://palantir.com,http://levels.fyi/companies/palantir
+PayPal,1001.3881587999518,3629,http://paypal.com,http://levels.fyi/companies/paypal
+Peloton,778.2241866170849,3347,http://onepeloton.com,http://levels.fyi/companies/peleton
+Pinterest,1059.4822223228796,3590,http://pinterest.com,http://levels.fyi/companies/pinterest
+Postmates,795.4086548641524,3298,http://postmates.com,http://levels.fyi/companies/postmates
+Qualtrics,756.5313423266228,3361,http://qualtrics.com,http://levels.fyi/companies/qualtrics
+Quora,901.1384450918266,3319,http://quora.com,http://levels.fyi/companies/quora
+Red Hat,877.473663838858,3378,http://redhat.com,http://levels.fyi/companies/red-hat
+Reddit,1082.7753559626653,3847,http://reddit.com,http://levels.fyi/companies/reddit
+Riot Games,1003.9158845536267,3541,http://riotgames.com,http://levels.fyi/companies/riot-games
+Robinhood,1082.1289713687374,3593,http://robinhood.com,http://levels.fyi/companies/robinhood
+Roblox,1141.5849276434378,4296,http://roblox.com,http://levels.fyi/companies/roblox
+Salesforce,1042.0871801864628,3362,http://salesforce.com,http://levels.fyi/companies/salesforce
+Samsara,884.9021105781255,3180,http://samsara.com,http://levels.fyi/companies/samsara
+Samsung,811.2009587601814,3739,http://samsung.com,http://levels.fyi/companies/samsung
+Shopify,937.2190312173786,3407,http://shopify.com,http://levels.fyi/companies/shopify
+Slack,1084.056383890005,3790,http://slack.com,http://levels.fyi/companies/slack
+Snap,1201.1693574466167,3900,http://snap.com,http://levels.fyi/companies/snap
+Snowflake,1196.9659608162992,3806,http://snowflake.com,http://levels.fyi/companies/snowflake
+SpaceX,1057.7982742213178,3753,http://spacex.com,http://levels.fyi/companies/spacex
+Splunk,1000.697791558789,3307,http://splunk.com,http://levels.fyi/companies/splunk
+Spotify,1103.1359372852226,3879,http://spotify.com,http://levels.fyi/companies/spotify
+Square,1123.3547012665454,3885,http://square.com,http://levels.fyi/companies/square
+Stripe,1104.6523120714978,4249,http://stripe.com,http://levels.fyi/companies/stripe
+Tableau,867.6481691048325,3236,http://tableau.com,http://levels.fyi/companies/tableau
+Tesla,1127.1071065908716,3772,http://tesla.com,http://levels.fyi/companies/tesla
+Twilio,930.4751252907474,3398,http://twilio.com,http://levels.fyi/companies/twilio
+Twitch,1093.271198649866,3611,http://twitch.com,http://levels.fyi/companies/twitch
+X,935.2904644336968,3744,http://x.com,http://levels.fyi/companies/twitter
+Two Sigma,1149.4030090598542,4617,http://twosigma.com,http://levels.fyi/companies/two-sigma
+Uber,1163.4919952760395,4264,http://uber.com,http://levels.fyi/companies/uber
+VMware,838.5753775334025,3412,http://vmware.com,http://levels.fyi/companies/vmware
+Walmart,796.6860983644702,3520,http://walmart.com,http://levels.fyi/companies/walmart
+Wish,745.4978325566718,3292,http://wish.com,http://levels.fyi/companies/wish
+Workday,877.4809439640142,3433,http://workday.com,http://levels.fyi/companies/workday
+Yelp,812.1830973255176,3398,http://yelp.com,http://levels.fyi/companies/yelp
+Yext,728.5264195878632,3031,http://yext.com,http://levels.fyi/companies/yext
+Zillow,849.7396335501378,3285,http://zillow.com,http://levels.fyi/companies/zillow
+Zoom,1039.7458920630484,3561,http://zoom.com,http://levels.fyi/companies/zoom
+Discord,1146.0906421731881,3655,http://discord.com,http://levels.fyi/companies/discord
+Bolt,803.1088116551163,3137,http://bolt.com,http://levels.fyi/companies/bolt
+Intuit,917.9757633464703,3369,http://intuit.com,http://levels.fyi/companies/intuit
+Elastic,824.4988961024939,3189,http://elastic.co,http://levels.fyi/companies/elastic
+Flexport,835.1373247124534,3178,http://flexport.com,http://levels.fyi/companies/flexport
+Deepmind,1237.4475062721888,4132,http://deepmind.com/,
+Rippling,938.2296128408144,3232,http://rippling.com,http://levels.fyi/companies/rippling
+IMC Trading,1164.0287684892996,3654,http://imc.com,
+Optiver,1179.046344488323,4170,http://optiver.com,http://levels.fyi/companies/optiver
+Renaissance Technologies,1133.2457992114648,3961,http://rentec.com,
+Plaid,1100.6385487833877,3246,http://plaid.com,http://levels.fyi/companies/plaid
+Verily,831.1914190022375,2789,http://verily.com,http://levels.fyi/companies/verily
+Kayak,711.0628476843301,3024,http://kayak.com,http://levels.fyi/companies/kayak
+Brex,941.3453563105793,3129,http://brex.com,http://levels.fyi/companies/brex
+Indeed,849.9307252750064,3095,http://indeed.com,http://levels.fyi/companies/indeed
+Okta,916.4244621675562,2340,http://okta.com,http://levels.fyi/companies/okta
+NASA,1021.1635572300775,2604,http://nasa.gov,http://levels.fyi/companies/nasa
+Anduril,948.067592233117,2480,http://anduril.com,http://levels.fyi/companies/anduril
+Tanium,646.0676711984802,2177,http://tanium.com,http://levels.fyi/companies/tanium
+Waymo,1130.1660920995978,2500,http://waymo.com,http://levels.fyi/companies/waymo
+Intel,965.2116111421178,2387,http://intel.com,http://levels.fyi/companies/intel
+Akuna Capital,1090.4258015568562,2495,http://akunacapital.com,http://levels.fyi/companies/akuna-capital
+OpenAI,1218.1235482264856,3454,http://openai.com,http://levels.fyi/companies/openai
+ServiceNow,846.3323633868112,2357,http://servicenow.com,http://levels.fyi/companies/servicenow
+Scale AI,1144.05872944695,2584,http://scale.com,http://levels.fyi/companies/scale-ai
+Flow Traders,959.2059442440154,2189,http://flowtraders.com,http://levels.fyi/companies/flow-traders
+Redfin,726.9597723834701,2072,http://redfin.com,http://levels.fyi/companies/redfin
+Hulu,851.767930157621,2233,http://hulu.com,http://levels.fyi/companies/hulu
+Lockheed Martin,810.9246888587114,2207,http://lockheedmartin.com,http://levels.fyi/companies/lockheed-martin
+Cruise,990.6039412470784,2422,http://getcruise.com,http://levels.fyi/companies/cruise
+Addepar,774.6393746840083,1887,http://addepar.com,http://levels.fyi/companies/addepar
+Nutanix,738.8981289389453,2041,http://nutanix.com,http://levels.fyi/companies/nutanix
+Blue Origin,962.0934774614757,1045,http://blueorigin.com,
+Autodesk,840.1628931753196,1135,http://autodesk.com,
+Retool,810.5161597865264,965,http://retool.com,
+Hugging Face,1103.4627081497822,1111,http://huggingface.co,
+Ramp,1041.820572251896,1256,http://ramp.com,
+Glean,776.2237755038997,983,http://glean.com,
+Canva,872.1720615221956,987,http://canva.com,
+Radix Trading,1125.165155882065,1028,http://radixtrading.co,
+Anthropic,1107.8974180749847,1154,http://anthropic.com,http://levels.fyi/companies/anthropic
+Cohere,956.8310382152843,905,http://cohere.com,http://levels.fyi/companies/cohere
+Neuralink,1010.6417200664954,1030,http://neuralink.com,http://levels.fyi/companies/neuralink
+Airtable,893.7685087285138,582,http://airtable.com,http://levels.fyi/companies/airtable
+Notion,1114.8307694969894,729,http://notion.so,http://levels.fyi/companies/notion

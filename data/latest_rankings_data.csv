@@ -1,0 +1,208 @@
+id,name,rating,rank,tier,headToHeads,trending,category,website,levelsWebsite,blindWebsite,isHFT,isPreIPO
+-MtYolFGuqU0qyeGf1bH,Adobe,1016.5843666116541,63,,3682,up,tech,http://adobe.com,http://levels.fyi/companies/adobe,http://teamblind.com/company/adobe,false,false
+-MtYolSabyEVhoaRHjUq,Affirm,891.8000268358389,91,,3226,down,tech,http://affirm.com,http://levels.fyi/companies/affirm,http://teamblind.com/company/affirm,false,false
+-MtYolTeLydJ14thuTuC,Airbnb,1189.737253620841,11,B,4043,none,tech,http://airbnb.com,http://levels.fyi/companies/airbnb,http://teamblind.com/company/airbnb,false,false
+-MtYolUg3_HHmJeU58em,Amazon,1111.8327814016025,36,,4217,none,tech,http://amazon.com,http://levels.fyi/companies/amazon,http://teamblind.com/company/amazon,false,false
+-MtYolVmPxZYrpqWpv8A,Apple,1156.6521856971979,21,D,4474,down,tech,http://apple.com,http://levels.fyi/companies/apple,http://teamblind.com/company/apple,false,false
+-MtYolWys7qpdLNhnO2M,Asana,981.0939436876547,71,,3469,down,tech,http://asana.com,http://levels.fyi/companies/asana,http://teamblind.com/company/asana,false,false
+-MtYolXyAtEaBOZj5Gkm,Atlassian,1082.272895062717,49,,3852,none,tech,http://atlassian.com,http://levels.fyi/companies/atlassian,http://teamblind.com/company/atlassian,false,false
+-MtYolZ3SKKdwIdHbIP6,Blackrock,979.6600267861701,72,,3564,none,tech,http://blackrock.com,http://levels.fyi/companies/blackrock,http://teamblind.com/company/blackrock,true,false
+-MtYol_9PwOeWrPgeUib,Bloomberg,1073.7198724386963,52,,4127,none,tech,http://bloomberg.com,http://levels.fyi/companies/bloomberg,http://teamblind.com/company/bloomberg,false,false
+-MtYolaFKG3Z5MvDeMh0,Box,884.9612996189395,93,,3187,down,tech,http://box.com,http://levels.fyi/companies/box,http://teamblind.com/company/box,false,false
+-MtYolbGyK_Q5XcRzqHh,ByteDance,1090.6393690183606,45,,3710,none,tech,http://bytedance.com,http://levels.fyi/companies/bytedance,http://teamblind.com/company/bytedance,false,true
+-MtYolcG3GN2mb-UyBWk,Capital One,971.6997885070664,73,,3535,down,tech,http://capitalone.com,http://levels.fyi/companies/capital-one,http://teamblind.com/company/capital-one,false,false
+-MtYoldIad40SUPHvLQk,Cisco,815.2905568136973,116,,3443,none,tech,http://cisco.com,http://levels.fyi/companies/cisco,http://teamblind.com/company/cisco,false,false
+-MtYoleR1Fpx6CIFsZIE,Citadel,1196.4867923309016,10,B,4662,none,tech,http://citadel.com,http://levels.fyi/companies/citadel,http://teamblind.com/company/citadel,true,false
+-MtYolfTEUcC7L69BvuK,Cloudflare,1024.279285775286,61,,3681,up,tech,http://cloudflare.com,http://levels.fyi/companies/cloudflare,http://teamblind.com/company/cloudflare,false,false
+-MtYolgTOEtqdCCTN7k4,Coinbase,1079.2767983300319,51,,3543,none,tech,http://coinbase.com,http://levels.fyi/companies/coinbase,http://teamblind.com/company/coinbase,false,false
+-MtYolhUL993k57xAhvN,D.E. Shaw,1127.2989629984843,29,F,3788,none,tech,http://deshaw.com,http://levels.fyi/companies/the-d-e-shaw-group,,true,false
+-MtYoliXuYoJUFthv9xa,Databricks,1185.5429925847027,12,B,4734,up,tech,http://databricks.com,http://levels.fyi/companies/databricks,http://teamblind.com/company/databricks,false,true
+-MtYoljb_OZDAR05yyQq,Datadog,990.0889473808296,70,,3893,none,tech,http://datadog.com,http://levels.fyi/companies/datadog,http://teamblind.com/company/datadog,false,false
+-MtYolk_n5Tr4AqqV3no,Docusign,842.9028706632076,108,,3429,none,tech,http://docusign.com,http://levels.fyi/companies/docusign,http://teamblind.com/company/docusign,false,false
+-MtYoll_V8zNDeGZgJPv,DoorDash,1105.9392469447823,38,,3678,none,tech,http://doordash.com,http://levels.fyi/companies/doordash,http://teamblind.com/company/doordash,false,false
+-MtYolmZ1rkAx07SFR7j,Dropbox,1065.1616888159022,54,,3491,none,tech,http://dropbox.com,http://levels.fyi/companies/dropbox,http://teamblind.com/company/dropbox,false,false
+-MtYolncfWCj9LXQGUHy,Duolingo,1069.6968043204545,53,,3442,none,tech,http://duolingo.com,http://levels.fyi/companies/duolingo,http://teamblind.com/company/duolingo,false,false
+-MtYolomadnHQ65ZN1kw,Ebay,889.8902005875594,92,,3512,down,tech,http://ebay.com,http://levels.fyi/companies/ebay,http://teamblind.com/company/ebay,false,false
+-MtYolppXNV5kY3IRpiU,Etsy,786.8785205076178,124,,3186,none,tech,http://etsy.com,http://levels.fyi/companies/etsy,http://teamblind.com/company/etsy,false,false
+-MtYolqqrd0glPyyQa6v,Expedia,861.6434638812337,101,,3223,none,tech,http://expedia.com,http://levels.fyi/companies/expedia,http://teamblind.com/company/expedia,false,false
+-MtYolrvPLwXtFnXZbpR,Figma,1120.7732486386494,33,F,3836,none,tech,http://figma.com,http://levels.fyi/companies/figma,http://teamblind.com/company/figma,false,true
+-MtYolsxNHJdC3NWiShA,Five Rings,1091.8587549595863,44,,3551,none,tech,http://fiverings.com,http://levels.fyi/companies/five-rings,,true,false
+-MtYolu042z_lvUB9FEo,GitHub,1117.1295238394846,34,,3833,none,tech,http://github.com,http://levels.fyi/companies/github,http://teamblind.com/company/github,false,false
+-MtYolv19UWo0r6diF7c,Goldman Sachs,937.0816751997235,84,,3595,none,tech,http://goldmansachs.com,http://levels.fyi/companies/goldman-sachs,http://teamblind.com/company/goldman-sachs,false,false
+-MtYolw1mVLofWCvdKiR,Google,1226.549146776731,4,A,5380,none,tech,http://google.com,http://levels.fyi/companies/google,http://teamblind.com/company/google,false,false
+-MtYolx94Ufhi5X15dIm,GrubHub,868.7370297546448,99,,3292,none,tech,http://grubhub.com,http://levels.fyi/companies/grubhub,http://teamblind.com/company/grubhub,false,false
+-MtYolyAhkRtJ3REHbtE,HubSpot,853.6924086572876,102,,3294,down,tech,http://hubspot.com,http://levels.fyi/companies/hubspot,http://teamblind.com/company/hubspot,false,false
+-MtYolzBhhATOasjgnis,Hudson River Trading,1235.1639031217753,3,S,4515,none,tech,http://hudsonrivertrading.com,http://levels.fyi/companies/hudson-river-trading,,true,false
+-MtYom-Br2t7e7sK8sTg,IBM,841.9110290960248,109,,3598,none,tech,http://ibm.com,http://levels.fyi/companies/ibm,http://teamblind.com/company/ibm,false,false
+-MtYom0FbFmNllRtPQmb,Instacart,939.5193314050613,81,,3466,none,tech,http://instacart.com,http://levels.fyi/companies/instacart,http://teamblind.com/company/instacart,false,true
+-MtYom1DW4PTESJxukZL,Jane Street,1174.091588068368,14,C,4846,super-down,tech,http://janestreet.com,http://levels.fyi/companies/jane-street,http://teamblind.com/company/jane-street,true,false
+-MtYom2DP4whMZGlAF3l,JPMC,850.8733244403489,104,,3400,none,tech,http://jpmorganchase.com,http://levels.fyi/companies/jpmorgan-chase,,false,false
+-MtYom3Lc0gCpBORrmhf,Jump Trading,1163.8467391587965,17,C,4174,down,tech,http://jumptrading.com,http://levels.fyi/companies/jump-trading,http://teamblind.com/company/jump-trading,true,false
+-MtYom4JBdfE_VOp8Lgw,LinkedIn,1219.6348688588896,5,A,4360,up,tech,http://linkedin.com,http://levels.fyi/companies/linkedIn,http://teamblind.com/company/linkedin,false,false
+-MtYom5I19QKQoSPRH0d,Lyft,1163.4629252376965,19,D,3612,none,tech,http://lyft.com,http://levels.fyi/companies/lyft,http://teamblind.com/company/lyft,false,false
+-MtYom6G1D6_uhBZMKIs,Meta,1244.075875233942,1,S,4767,up,tech,http://meta.com,http://levels.fyi/companies/facebook,,false,false
+-MtYom7gYepeZQw4CoAM,Microsoft,1158.2102961295939,20,D,4291,up,tech,http://microsoft.com,http://levels.fyi/companies/microsoft,,false,false
+-MtYom8i457MZYLXaNJa,MongoDB,1041.5438669124742,59,,3466,none,tech,http://mongodb.com,http://levels.fyi/companies/mongodb,,false,false
+-MtYom9iZC4jypyojvNW,Morgan Stanley,870.1229043859437,98,,3603,none,tech,http://morganstanley.com,http://levels.fyi/companies/morgan-stanley,,false,false
+-MtYomAhuTw_8YWTXREP,Netflix,1199.804778315815,8,A,4297,none,tech,http://netflix.com,http://levels.fyi/companies/netflix,,false,false
+-MtYomBpFTRIQ6Amb8Es,Nextdoor,818.5365558023773,115,,3337,none,tech,http://nextdoor.com,http://levels.fyi/companies/nextdoor,,false,false
+-MtYomCn25rpeL9zqD3K,Nuro,996.9722156781729,68,,3440,none,tech,http://nuro.com,http://levels.fyi/companies/nuro,,false,true
+-MtYomDnUZMr8nZpnahC,Nvidia,1171.7396085350292,15,C,4515,up,tech,http://nvidia.com,http://levels.fyi/companies/nvidia,,false,false
+-MtYomErh776LfX6Fo3c,Oracle,941.0341548304269,80,,3592,none,tech,http://oracle.com,http://levels.fyi/companies/oracle,,false,false
+-MtYomFxiViH8a8djtck,Palantir,1147.1022491916247,23,D,4867,none,tech,http://palantir.com,http://levels.fyi/companies/palantir,,false,false
+-MtYomH000M_1K1l01Ba,PayPal,1001.3881587999518,66,,3629,none,tech,http://paypal.com,http://levels.fyi/companies/paypal,,false,false
+-MtYomI3dYL0NgFa855q,Peloton,778.2241866170849,125,,3347,none,tech,http://onepeloton.com,http://levels.fyi/companies/peleton,,false,false
+-MtYomJ0ITauTUPJtcD6,Pinterest,1059.4822223228796,55,,3590,none,tech,http://pinterest.com,http://levels.fyi/companies/pinterest,,false,false
+-MtYomK3Jl2c41yWgDvb,Postmates,795.4086548641524,123,,3298,none,tech,http://postmates.com,http://levels.fyi/companies/postmates,,false,false
+-MtYomL36kwZcHpLHb1r,Qualtrics,756.5313423266228,128,,3361,down,tech,http://qualtrics.com,http://levels.fyi/companies/qualtrics,,false,false
+-MtYomMCRQ4P4Pcq2d3A,Quora,901.1384450918266,89,,3319,none,tech,http://quora.com,http://levels.fyi/companies/quora,,false,true
+-MtYomNF9t42Qpd40f0c,Red Hat,877.473663838858,96,,3378,up,tech,http://redhat.com,http://levels.fyi/companies/red-hat,,false,false
+-MtYomOE1ik-_pUX1dRV,Reddit,1082.7753559626653,48,,3847,none,tech,http://reddit.com,http://levels.fyi/companies/reddit,,false,true
+-MtYomPH0oCu9RVrHhLJ,Riot Games,1003.9158845536267,65,,3541,none,tech,http://riotgames.com,http://levels.fyi/companies/riot-games,,false,false
+-MtYomQK4F3C1AOLPTim,Robinhood,1082.1289713687374,50,,3593,none,tech,http://robinhood.com,http://levels.fyi/companies/robinhood,,false,false
+-MtYomRM8a-WAXthWZyE,Roblox,1141.5849276434378,26,E,4296,none,tech,http://roblox.com,http://levels.fyi/companies/roblox,,false,false
+-MtYomSMsEou06Or4q83,Salesforce,1042.0871801864628,57,,3362,none,tech,http://salesforce.com,http://levels.fyi/companies/salesforce,,false,false
+-MtYomTPiufo7ZCv_PV-,Samsara,884.9021105781255,94,,3180,down,tech,http://samsara.com,http://levels.fyi/companies/samsara,,false,false
+-MtYomUS7ad6qXUkXR24,Samsung,811.2009587601814,118,,3739,none,tech,http://samsung.com,http://levels.fyi/companies/samsung,,false,false
+-MtYomVWdpgBC7Ptuebp,Shopify,937.2190312173786,83,,3407,none,tech,http://shopify.com,http://levels.fyi/companies/shopify,,false,false
+-MtYomWX9cIXDrfOQwpL,Slack,1084.056383890005,47,,3790,none,tech,http://slack.com,http://levels.fyi/companies/slack,,false,false
+-MtYomXd2xuW-u2mslvr,Snap,1201.1693574466167,7,A,3900,none,tech,http://snap.com,http://levels.fyi/companies/snap,,false,false
+-MtYomYduasl_vnm-pjh,Snowflake,1196.9659608162992,9,B,3806,none,tech,http://snowflake.com,http://levels.fyi/companies/snowflake,,false,false
+-MtYomZeFQdxXaL5XGdd,SpaceX,1057.7982742213178,56,,3753,none,tech,http://spacex.com,http://levels.fyi/companies/spacex,,false,true
+-MtYom_eVxm_eXNrN1dU,Splunk,1000.697791558789,67,,3307,down,tech,http://splunk.com,http://levels.fyi/companies/splunk,,false,false
+-MtYomaeGsS2x__bqfxH,Spotify,1103.1359372852226,41,,3879,up,tech,http://spotify.com,http://levels.fyi/companies/spotify,,false,false
+-MtYombdCZF5DAPvfijg,Square,1123.3547012665454,32,F,3885,up,tech,http://square.com,http://levels.fyi/companies/square,,false,false
+-MtYomccQSmlUkuXmsFj,Stripe,1104.6523120714978,39,,4249,none,tech,http://stripe.com,http://levels.fyi/companies/stripe,,false,true
+-MtYomdb29qg16vNT1M6,Tableau,867.6481691048325,100,,3236,none,tech,http://tableau.com,http://levels.fyi/companies/tableau,,false,false
+-MtYomecqYbr_woM9tWG,Tesla,1127.1071065908716,30,F,3772,none,tech,http://tesla.com,http://levels.fyi/companies/tesla,,false,false
+-MtYomfmTnmJr6hfx_jJ,Twilio,930.4751252907474,86,,3398,none,tech,http://twilio.com,http://levels.fyi/companies/twilio,,false,false
+-MtYomgmq6DdUtD2FHpl,Twitch,1093.271198649866,43,,3611,none,tech,http://twitch.com,http://levels.fyi/companies/twitch,,false,false
+-MtYomhnER2hlu_UO_OU,X,935.2904644336968,85,,3744,down,tech,http://x.com,http://levels.fyi/companies/twitter,,false,false
+-MtYomiqhAeP4D1ekdEX,Two Sigma,1149.4030090598542,22,D,4617,super-down,tech,http://twosigma.com,http://levels.fyi/companies/two-sigma,,true,false
+-MtYomjpicMu96V3LJfL,Uber,1163.4919952760395,18,C,4264,none,tech,http://uber.com,http://levels.fyi/companies/uber,,false,false
+-MtYomkxCwOr4X_J9gYp,VMware,838.5753775334025,111,,3412,up,tech,http://vmware.com,http://levels.fyi/companies/vmware,,false,false
+-MtYomlxLCMhemM4e8Ke,Walmart,796.6860983644702,122,,3520,down,tech,http://walmart.com,http://levels.fyi/companies/walmart,,false,false
+-MtYomn-rOXhLhgyKpXi,Wish,745.4978325566718,129,,3292,none,tech,http://wish.com,http://levels.fyi/companies/wish,,false,false
+-MtYomo0DM3F_13m--cA,Workday,877.4809439640142,95,,3433,down,tech,http://workday.com,http://levels.fyi/companies/workday,,false,false
+-MtYomp2UFpAlJkatOBB,Yelp,812.1830973255176,117,,3398,none,tech,http://yelp.com,http://levels.fyi/companies/yelp,,false,false
+-MtYomq8vAMvuhFu8hbW,Yext,728.5264195878632,131,,3031,none,tech,http://yext.com,http://levels.fyi/companies/yext,,false,false
+-MtYomrIrWGltwr28Ckw,Zillow,849.7396335501378,106,,3285,none,tech,http://zillow.com,http://levels.fyi/companies/zillow,,false,false
+-MtYomsNMYutPWrV9aZD,Zoom,1039.7458920630484,60,,3561,none,tech,http://zoom.com,http://levels.fyi/companies/zoom,,false,false
+-MtddC55lIgq9pMlYktb,Bain & Company,1342.3761572958506,3,S,545,none,consulting,http://bain.com,http://levels.fyi/companies/bain,,false,false
+-MtddCNE73C6R3DsiZfm,McKinsey & Company,1432.0038712390121,1,S,566,none,consulting,http://mckinsey.com,http://levels.fyi/companies/mckinsey,,false,false
+-MtddCOF40sOq8Cx6Qxb,BCG,1368.7985948671378,2,S,506,none,consulting,http://bcg.com,http://levels.fyi/companies/bcg,,false,false
+-MtddCPF3qGuE0C_7i26,Strategy&,1099.7301183819836,6,A,418,none,consulting,http://strategyand.pwc.com,,,false,false
+-MtddCQIgirn5nlShFK5,Deloitte,1182.6211055488154,4,A,463,none,consulting,http://deloitte.com,,,false,false
+-MtddCRHGasslcf8y_nD,PwC,1013.9142895735984,10,B,421,none,consulting,http://pwc.com,,,false,false
+-MtddCSJMUpfl_Z2F4-t,Accenture,1117.6500598673756,5,A,450,none,consulting,http://accenture.com,http://levels.fyi/companies/accenture,,false,false
+-MtddCTJPLetTBxD5KFC,The Brattle Group,684.1261114142715,23,D,281,none,consulting,http://brattle.com,,,false,false
+-MtddCUIB4OESaLXVrS5,EY,1022.1929834477717,9,B,400,none,consulting,http://ey.com,,,false,false
+-MtddCVINkAHRFBKkZYD,Oliver Wyman,1035.1361071159906,8,A,344,none,consulting,http://oliverwyman.com,,,false,false
+-MtddCWK8Og4FOmklmuc,Kearney,1055.0768173077868,7,A,382,none,consulting,http://kearney.com,,,false,false
+-MtddCXKP2DVglhW5ALp,WTW,705.299012141143,22,D,278,none,consulting,http://wtwco.com,,,false,false
+-MtddCYJIj0v8Z_iDVH9,Slalom,934.4517572337223,14,C,337,none,consulting,http://slalom.com,http://levels.fyi/companies/slalom,,false,false
+-MtddCZPk1BFmKw_B6S0,ZS,888.5469576435796,16,C,306,none,consulting,http://zs.com,http://levels.fyi/companies/zs,,false,false
+-MtddC_N-UmJj54FUcej,Alvarez & Marsal,904.9967667157644,15,C,354,none,consulting,http://alvarezandmarsal.com,,,false,false
+-MtddCaOSLvnIaozNQFt,MRG,766.8858407994792,19,D,270,none,consulting,http://thinkbrg.com,,,false,false
+-MtddCbNbnV1se5LnCAe,Booz Allen Hamilton,956.580906636132,11,B,360,none,consulting,http://boozallen.com,,,false,false
+-MtddCcLcFM7xCtUu9zW,KPMG,950.9837756329026,12,B,394,none,consulting,http://home.kpmg,,,false,false
+-MtddCdOL0HAprFxKvZd,Analysis Group,749.0176911351683,20,D,301,none,consulting,http://analysisgroup.com,,,false,false
+-Mtdmb7v2kIUBM99EjTx,Citadel,1331.024657996384,5,A,962,none,finance,http://citadel.com,http://levels.fyi/companies/citadel,http://teamblind.com/company/citadel,false,false
+-Mtdmb8yRsl2-zMxJK1C,Bridgewater,994.8177299377671,25,E,698,none,finance,http://bridgewater.com,,,false,false
+-MtdmbA0yHUfDM6Q0Mt1,Millennium,1043.3661337743747,19,D,751,none,finance,http://mlp.com,,,false,false
+-MtdmbB7KuNaD3-ftJTN,Point72,1106.3462316030596,16,C,757,none,finance,http://point72.com,http://levels.fyi/companies/point72,,false,false
+-MtdmbC4n6tSh_gGq_zY,Balyasny Asset Management,971.0395075245498,28,E,627,none,finance,http://bamfunds.com,,,false,false
+-MtdmbD4nEvBlM09MRO4,Surveyor,713.109991133863,49,,552,none,finance,http://citadel.com/investment-strategies/surveyor-capital,,,false,false
+-MtdmbE2k6n-FMdYE1OL,ExodusPoint,737.2136980197585,46,,537,up,finance,http://exoduspoint.com,,,false,false
+-MtdmbFCuJZ1iQ8RD647,Brevan Howard,834.1967936486586,37,,564,none,finance,http://brevanhoward.com,,,false,false
+-MtdmbGE5aQIAe9ldbG0,Renaissance Technologies,1452.764973340111,1,S,886,none,finance,http://rentec.com,,,false,false
+-MtdmbHEXVkvNIr1KONy,Two Sigma,1239.9916692457818,10,B,936,none,finance,http://twosigma.com,http://levels.fyi/companies/two-sigma,,false,false
+-MtdmbIKeVNzB5Ubd2oy,AQR Capital Management,1106.5771382811533,15,C,626,up,finance,http://aqr.com,,,false,false
+-MtdmbJRMSDwIQB7Ij-O,D.E. Shaw,1307.2335181421786,6,A,868,up,finance,http://deshaw.com,,,false,false
+-MtdmbKTtWgpuQQLTdoG,Elliott Management,859.0219325124365,35,,544,up,finance,http://elliottmgmt.com,,,false,false
+-MtdmbLSut6gxtrBXi_A,Third Point Partners,729.647929203098,47,,487,up,finance,http://thirdpoint.com,,,false,false
+-MtdmbMVijRfWcquzkta,Farallon Capital,763.1280924023818,43,,529,up,finance,http://faralloncapital.com,,,false,false
+-MtdmbNU7LUu9FvLU54h,Pine River Capital,762.3306936937819,44,,485,none,finance,http://pinerivercapital.com,,,false,false
+-MtdmbORJfBNJxOyTuk6,Baupost Group,725.7554501825892,48,,436,none,finance,http://baupost.com,,,false,false
+-MtdmbPZWpUZnE6W-hg5,Egerton,631.573424584151,50,,576,none,finance,http://egertoncapital.com,,,false,false
+-MtdmbQhQ5M0F2GGVWrP,Davidson Kempner Capital Management,755.545859545585,45,,485,none,finance,http://davidsonkempner.com,,,false,false
+-MtdmbRhcu38_g4SJmmL,Goldman Sachs,1041.7455717291314,20,D,779,none,finance,http://goldmansachs.com,,,false,false
+-MtdmbSga3_MmzrE9SS1,Morgan Stanley,976.5146577759393,27,E,694,down,finance,http://morganstanley.com,,,false,false
+-MtdmbTiEJuvowE1SJJA,Blackstone,1020.4014665632375,24,E,678,none,finance,http://blackstone.com,,,false,false
+-MtdmbUgfT9J3vvm2f1w,Evercore,944.9468836464266,30,F,584,none,finance,http://goldmansachs.com,,,false,false
+-MtdmbVyPhEQSbOA3s9t,Lazard,914.6340779455844,31,F,540,up,finance,http://lazard.com,,,false,false
+-MtdmbWx2CiBnSl0HU3G,J.P. Morgan,968.279900413027,29,F,663,none,finance,http://jpmorgan.com,,,false,false
+-MtdmbY3ePDH7Xsa1B0i,Credit Suisse,767.4709588181473,42,,591,none,finance,http://credit-suisse.com,,,false,false
+-MtdmbZ2ktMYTW0A3z1j,Centerview Partners,888.1114761264307,33,F,455,none,finance,http://centerviewpartners.com,,,false,false
+-Mtdmb_3oOycwTVReWJf,Moelis & Company,796.2682211399303,41,,500,none,finance,http://moelis.com,,,false,false
+-Mtdmba2zOzc62dOSBGU,Guggenheim Securities,817.1148345129898,40,,521,none,finance,http://guggenheimpartners.com,,,false,false
+-Mtdmbb0tMlcnvA7sZAY,Bank of America,827.9962652808006,38,,627,none,finance,http://bankofamerica.com,,,false,false
+-Mu1qAXDP2Z5SRFLOCtC,Discord,1146.0906421731881,24,E,3655,up,tech,http://discord.com,http://levels.fyi/companies/discord,,false,true
+-Mu1qAldDramkrsfJK1t,Bolt,803.1088116551163,121,,3137,down,tech,http://bolt.com,http://levels.fyi/companies/bolt,,false,false
+-Mu1qAmg0Wy19gfaj3Kn,Intuit,917.9757633464703,87,,3369,down,tech,http://intuit.com,http://levels.fyi/companies/intuit,,false,false
+-Mu1qAniebfrPiAW12Vw,Elastic,824.4988961024939,114,,3189,none,tech,http://elastic.co,http://levels.fyi/companies/elastic,,false,false
+-Mu2KAKgNCEzV6gxiXXF,Flexport,835.1373247124534,112,,3178,none,tech,http://flexport.com,http://levels.fyi/companies/flexport,,false,true
+-MuFEzJW99n7nLoYcb8u,Deepmind,1237.4475062721888,2,S,4132,up,tech,http://deepmind.com/,,http://teamblind.com/company/deepmind,false,false
+-MuPY9J7tzn62p31CgAX,Rippling,938.2296128408144,82,,3232,none,tech,http://rippling.com,http://levels.fyi/companies/rippling,,false,true
+-MuZqKPPOiDAynY6zRb4,L.E.K.,945.3497466407871,13,B,341,none,consulting,http://lek.com/,,,false,false
+-MuZqKQM5WKuF7Q9Dl3h,AlixPartners,846.5965454527327,17,C,322,none,consulting,http://alixpartners.com,,,false,false
+-MuZqKRFo0ILu6ujL1n2,IMC Trading,1164.0287684892996,16,C,3654,none,tech,http://imc.com,,,true,false
+-MuZqKS8-lfy9Uq1M7Tb,IMC Trading,1248.7925264122669,9,B,876,none,finance,http://imc.com,,,false,false
+-MuZqKT1g8H76h31XnIy,Optiver,1179.046344488323,13,B,4170,none,tech,http://optiver.com,http://levels.fyi/companies/optiver,,true,false
+-MuZqKTwN5nlz4JN2KMb,Optiver,1367.037916049523,4,A,942,down,finance,http://optiver.com,http://levels.fyi/companies/optiver,,false,false
+-MuZqKUplHoXP10PGW8Q,Renaissance Technologies,1133.2457992114648,27,E,3961,none,tech,http://rentec.com,,,true,false
+-N6z0ut42imN1EpLV5CC,Plaid,1100.6385487833877,42,,3246,none,tech,http://plaid.com,http://levels.fyi/companies/plaid,,false,true
+-N6z0uwFzCQ-jEXcv_xC,Verily,831.1914190022375,113,,2789,none,tech,http://verily.com,http://levels.fyi/companies/verily,,false,false
+-N6z0uzSFGdXNo67m6N4,Kayak,711.0628476843301,133,,3024,none,tech,http://kayak.com,http://levels.fyi/companies/kayak,,false,false
+-N6z0v1aSOYVelU3M5V0,Deutsche Bank,850.3737525695976,36,,615,none,finance,http://db.com,,,false,false
+-N6z0v4cS7DZd3FTkK_R,Brex,941.3453563105793,79,,3129,none,tech,http://brex.com,http://levels.fyi/companies/brex,,false,true
+-N6z0v7fW32BxUMmCNjl,Indeed,849.9307252750064,105,,3095,none,tech,http://indeed.com,http://levels.fyi/companies/indeed,,false,false
+-N6z0vAiQtr7pA73NLqp,Jane Street,1443.1745828221538,2,S,1093,none,finance,http://janestreet.com,http://levels.fyi/companies/jane-street,,false,false
+-NJ3DujqSwnuTDJ0EbCG,Okta,916.4244621675562,88,,2340,down,tech,http://okta.com,http://levels.fyi/companies/okta,,false,false
+-NJ3DulHvXuVa0WYB8a3,NASA,1021.1635572300775,62,,2604,up,tech,http://nasa.gov,http://levels.fyi/companies/nasa,,false,false
+-NJ3DumboJA2mYYl3yDW,Anduril,948.067592233117,78,,2480,up,tech,http://anduril.com,http://levels.fyi/companies/anduril,,false,true
+-NJ3DunxLrf17Z_8WjAa,Tanium,646.0676711984802,134,,2177,none,tech,http://tanium.com,http://levels.fyi/companies/tanium,,false,true
+-NJ3DupGOYCX_-m6ha6d,Waymo,1130.1660920995978,28,E,2500,none,tech,http://waymo.com,http://levels.fyi/companies/waymo,,false,false
+-NJ3DuqcI2qSq3NQu3CN,Intel,965.2116111421178,74,,2387,none,tech,http://intel.com,http://levels.fyi/companies/intel,,false,false
+-NJ3Durw2UlFkRG0jHu7,SIG,1233.463010068368,12,B,707,none,finance,http://sig.com,,,false,false
+-NJ3Duu_9xDkXQ0ks_u4,Akuna Capital,1090.4258015568562,46,,2495,down,tech,http://akunacapital.com,http://levels.fyi/companies/akuna-capital,,true,false
+-NJ3DuvuAsgxkFfluVZ5,Akuna Capital,1026.1698295960666,23,D,616,none,finance,http://akunacapital.com,http://levels.fyi/companies/akuna-capital,,false,false
+-NJ3DuxEmCxgpaD0mR1X,OpenAI,1218.1235482264856,6,A,3454,none,tech,http://openai.com,http://levels.fyi/companies/openai,,false,true
+-NJ3DuyZzzcBVShoWp0c,Jump Trading,1296.3199909278765,7,A,690,none,finance,http://jumptrading.com,http://levels.fyi/companies/jump-trading,,false,false
+-NJ3DuzsgqWd7Pk6o26f,ServiceNow,846.3323633868112,107,,2357,none,tech,http://servicenow.com,http://levels.fyi/companies/servicenow,,false,false
+-NJ3Dv0DOWzEM81HiyzM,Squarepoint Capital,1033.822781784147,22,D,571,none,finance,http://squarepoint-capital.com,,,false,false
+-NJ3Dv1Yi3KWSJn4Z9YO,Scale AI,1144.05872944695,25,E,2584,none,tech,http://scale.com,http://levels.fyi/companies/scale-ai,,false,false
+-NJ3Dv2uGa86961b8aFV,OC&C,827.9902484847744,18,C,216,none,consulting,http://occstrategy.com,,,false,false
+-NJ3Dv4DojHdTS8CMvlT,Charles Schwab,826.4439383661467,39,,503,down,finance,http://schwab.com,,,false,false
+-NJ3Dv5XQja0v3HO1sMt,Publicis Sapient,720.1249147307274,21,D,215,none,consulting,http://publicissapient.com,,,false,false
+-NJ3Dv6q-1_jLBb4PVJJ,Capital One,874.2836957093845,34,,497,none,finance,http://capitalone.com,http://levels.fyi/companies/capital-one,,false,false
+-NJNNrWqy3cHVucD72PN,Hudson River Trading,1377.7103264646798,3,S,806,none,finance,http://hudsonrivertrading.com,http://levels.fyi/companies/hudson-river-trading,,false,false
+-NJup4TJp919Tax60-5M,Flow Traders,959.2059442440154,76,,2189,none,tech,http://flowtraders.com,http://levels.fyi/companies/flow-traders,,false,false
+-NJup4UmuNWK6FTOk4hN,Flow Traders,992.9984852122475,26,E,507,none,finance,http://flowtraders.com,http://levels.fyi/companies/flow-traders,,false,false
+-NJup4W7PBm-ERj-YgIl,Redfin,726.9597723834701,132,,2072,none,tech,http://redfin.com,http://levels.fyi/companies/redfin,,false,false
+-NJup4XTo6dH6vX77QK5,Hulu,851.767930157621,103,,2233,none,tech,http://hulu.com,http://levels.fyi/companies/hulu,,false,false
+-NJup4Ywcaw_9wHzdmln,Lockheed Martin,810.9246888587114,119,,2207,none,tech,http://lockheedmartin.com,http://levels.fyi/companies/lockheed-martin,,false,false
+-NJup4_GjgCVXpa6fob7,Cruise,990.6039412470784,69,,2422,none,tech,http://getcruise.com,http://levels.fyi/companies/cruise,,false,true
+-NJup4aacu0j4dpWdBYc,Addepar,774.6393746840083,127,,1887,none,tech,http://addepar.com,http://levels.fyi/companies/addepar,,false,true
+-NJup4bxHOPeczQ35pcM,Nutanix,738.8981289389453,130,,2041,none,tech,http://nutanix.com,http://levels.fyi/companies/nutanix,,false,false
+-NJup4dTqQTPtr6sMnYF,Barclays,903.534271646768,32,F,472,none,finance,http://barclays.com,http://levels.fyi/companies/barclays,,false,false
+-Ndie-dzmbiiW76oHZDu,Blue Origin,962.0934774614757,75,,1045,none,tech,http://blueorigin.com,,,false,true
+-Ndie-fYM0Zg5SqbnCPQ,Autodesk,840.1628931753196,110,,1135,none,tech,http://autodesk.com,,,false,false
+-Ndie-gzLbtNQ3K0LdwI,Retool,810.5161597865264,120,,965,none,tech,http://retool.com,,,false,false
+-Ndie-iReMU5Xe2hwuJ0,Hugging Face,1103.4627081497822,40,,1111,none,tech,http://huggingface.co,,,false,true
+-Ndie-jt3aptI_Sselui,Ramp,1041.820572251896,58,,1256,none,tech,http://ramp.com,,,false,true
+-Ndie-lLxSY3X0vPrezN,Glean,776.2237755038997,126,,983,none,tech,http://glean.com,,,false,true
+-Ndie-mqEFPjNIm-ZcUE,Canva,872.1720615221956,97,,987,none,tech,http://canva.com,,,false,true
+-Ndie06ztv0VU0IP_ivO,Arrowstreet Capital,1079.626454160525,17,C,281,none,finance,https://arrowstreetcapital.com,,,false,false
+-Ndie08R0AU4dCdxExH_,DRW,1169.1651022469196,14,C,345,down,finance,http://drw.com,,,false,false
+-Ndie09tJpFYX4ff_6Al,XTX Markets,1065.9188851855754,18,C,347,none,finance,https://xtxmarkets.com,,,false,false
+-Ndie0BLSCASyut5Wizc,Blackrock,1039.9936184357264,21,D,246,none,finance,http://blackrock.com,http://levels.fyi/companies/blackrock,http://teamblind.com/company/blackrock,false,false
+-Ndie0CnIp5sU41hvTJd,D.E. Shaw,1255.254354721944,8,A,344,none,finance,http://deshaw.com,http://levels.fyi/companies/the-d-e-shaw-group,,false,false
+-Ndie0EENZ8tUbJUQ60o,Five Rings,1216.0443095111414,13,B,360,none,finance,http://fiverings.com,http://levels.fyi/companies/five-rings,,false,false
+-NeYqJ28_DJYhxpziVJD,Radix Trading,1125.165155882065,31,F,1028,up,tech,http://radixtrading.co,,,false,false
+-NeYqJ3eZeRIInJdJsr-,Radix Trading,1238.2861935374542,11,B,278,none,finance,http://radixtrading.co,,,false,false
+-NeYqJ547P_Xiw0xFZb3,Anthropic,1107.8974180749847,37,,1154,up,tech,http://anthropic.com,http://levels.fyi/companies/anthropic,,false,false
+-NeYqJ6SqnBT8gCRnIuT,Cohere,956.8310382152843,77,,905,none,tech,http://cohere.com,http://levels.fyi/companies/cohere,,false,false
+-NeYqJ7pkaczzzmzDB2w,Neuralink,1010.6417200664954,64,,1030,none,tech,http://neuralink.com,http://levels.fyi/companies/neuralink,,false,false
+-Nj3z5_A788WfY1Ncbnm,Airtable,893.7685087285138,90,,582,none,tech,http://airtable.com,http://levels.fyi/companies/airtable,,false,true
+-Nj3z5aeEMKzOuayZlgF,Notion,1114.8307694969894,35,,729,none,tech,http://notion.so,http://levels.fyi/companies/notion,,false,true
