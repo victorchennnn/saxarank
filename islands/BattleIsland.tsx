@@ -8,13 +8,26 @@ export function BattleIsland() {
   const [nextMatchup, setNextMatchup] = useState<{ data: Club[]; token: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Helper function to call the API
+  // Helper to preload images into browser cache
+  const preloadImages = (clubs: Club[]) => {
+    clubs.forEach((club) => {
+      if (club.image_url) {
+        const img = new Image();
+        img.src = club.image_url;
+      }
+    });
+  };
+
   const getNextMatchupFromApi = async (): Promise<{ data: Club[]; token: string } | null> => {
     try {
       const res = await fetch("/api/getmatchup");
       if (!res.ok) throw new Error(await res.text());
-      return await res.json();
+      const json = await res.json();
+      // Preload the images as soon as we get the data
+      if (json.data) preloadImages(json.data);
+      return json;
     } catch (err) {
       console.error("Fetch Matchup Error:", err);
       return null;
@@ -22,27 +35,28 @@ export function BattleIsland() {
   };
 
   const fetchMatchup = async () => {
-    // If we already have a pre-fetched matchup, use it!
     if (nextMatchup) {
-      setData(nextMatchup.data);
-      setToken(nextMatchup.token);
-      setLoading(false);
+      setIsTransitioning(true);
       
-      // Immediately start pre-fetching the NEXT one in the background
-      getNextMatchupFromApi().then((res) => {
-        if (res) setNextMatchup(res);
-      });
+      // Wait for fade-out animation
+      setTimeout(() => {
+        setData(nextMatchup.data);
+        setToken(nextMatchup.token);
+        setLoading(false);
+        setIsTransitioning(false);
+        
+        getNextMatchupFromApi().then((res) => {
+          if (res) setNextMatchup(res);
+        });
+      }, 300);
       return;
     }
 
-    // Fallback if no pre-fetched matchup exists (e.g., first load)
     setLoading(true);
     const res = await getNextMatchupFromApi();
     if (res) {
       setData(res.data);
       setToken(res.token);
-      
-      // Now pre-fetch the next one
       getNextMatchupFromApi().then((next) => {
         if (next) setNextMatchup(next);
       });
@@ -55,29 +69,30 @@ export function BattleIsland() {
   const handleBattle = async (
     { winner_id, loser_id }: { winner_id: number; loser_id: number },
   ) => {
-    // 1. Instantly swap to the next matchup (it's already in memory!)
-    if (nextMatchup) {
+    if (nextMatchup && !isTransitioning) {
       const currentToken = token;
-      
-      // Swap UI state immediately
-      setData(nextMatchup.data);
-      setToken(nextMatchup.token);
-      // Reset nextMatchup so we don't reuse it
-      setNextMatchup(null);
+      setIsTransitioning(true);
 
-      // 2. Fire and forget the battle submission in the background
+      // Start the battle submission in the background
       fetch("/api/battle", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ winner_id, loser_id, token: currentToken }),
       }).catch(err => console.error("Battle submission failed:", err));
 
-      // 3. Pre-fetch the NEXT next one in the background
-      getNextMatchupFromApi().then((res) => {
-        if (res) setNextMatchup(res);
-      });
-    } else {
-      // Fallback if user clicks too fast before pre-fetch finishes
+      // Wait 400ms for a smooth fade transition before swapping names/photos
+      setTimeout(() => {
+        setData(nextMatchup.data);
+        setToken(nextMatchup.token);
+        setNextMatchup(null);
+        setIsTransitioning(false);
+
+        // Fetch the NEXT next one
+        getNextMatchupFromApi().then((res) => {
+          if (res) setNextMatchup(res);
+        });
+      }, 400);
+    } else if (!isTransitioning) {
       setLoading(true);
       await fetch("/api/battle", {
         method: "POST",
@@ -98,10 +113,10 @@ export function BattleIsland() {
     }
     if (data.length === 2) {
       return (
-        <ul class="flex flex-col md:flex-row justify-center items-stretch gap-6 w-full max-w-4xl mx-auto list-none p-0 cursor-pointer">
+        <ul class={`flex flex-col md:flex-row justify-center items-stretch gap-6 w-full max-w-4xl mx-auto list-none p-0 cursor-pointer transition-all duration-500 ${isTransitioning ? "opacity-0 scale-95" : "opacity-100 scale-100"}`}>
           <ClubBattleCard
             onClick={() =>
-              handleBattle({ winner_id: data[0].id, loser_id: data[1].id })}
+              !isTransitioning && handleBattle({ winner_id: data[0].id, loser_id: data[1].id })}
             club={data[0]}
           />
           <div class="flex items-center justify-center">
@@ -109,7 +124,7 @@ export function BattleIsland() {
           </div>
           <ClubBattleCard
             onClick={() =>
-              handleBattle({ winner_id: data[1].id, loser_id: data[0].id })}
+              !isTransitioning && handleBattle({ winner_id: data[1].id, loser_id: data[0].id })}
             club={data[1]}
           />
         </ul>
