@@ -9,7 +9,7 @@ export const Header = () => {
           </span>
         </div>
       </a>
-      <div class="flex justify-right w-1/2 ml-12  text-xs tracking-widest">
+      <div class="flex justify-right w-1/2 ml-12 text-xs tracking-widest items-center">
         <div class="flex mr-10">
           <a class="hover:text-secondary ml-1" href="/">rankings</a>
         </div>

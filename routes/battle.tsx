@@ -7,7 +7,7 @@ export default function Battle(_req: Request, _ctx: FreshContext) {
       <div class="mt-8 mb-6 text-center w-full">
         <p class="text-2xl font-semibold">battle</p>
         <p class="text-sm font-semibold w-full md:w-1/2 mx-auto">
-          which club is better?
+          which club is better? click to choose.
         </p>
 
       </div>
