@@ -27,9 +27,12 @@ export default async function Home(req: Request, _ctx: FreshContext) {
           which club on campus is the best?
         </p>
         <p class="text-sm font-semibold w-full md:w-3/4 mx-auto">
-          you submit{" "}
+        rankings are updated daily and completely community-driven by head-to-head {" "}
           <a href="/battle" class="underline hover:text-primary">battles</a>
-          {""}, community rankings update, everyone sees the results
+          {""} 
+        </p>
+        <p class="text-sm font-semibold w-full md:w-3/4 mx-auto">
+          {/* we all see the results. */}
         </p>
         {/* <p class="text-[12px] italic mt-10">
         a standard elo system is used to determine the ranking of each club. 

@@ -9,6 +9,9 @@ export default function Battle(_req: Request, _ctx: FreshContext) {
         <p class="text-sm font-semibold w-full md:w-1/2 mx-auto">
           which club is better? click to choose.
         </p>
+        <p class="text-[10px] font-semibold w-full md:w-1/2 mx-auto">
+          all battles are randomly generated.
+        </p>
 
       </div>
       <div class="w-full flex justify-center">
