@@ -21,7 +21,7 @@ export default function Home(_req: Request, _ctx: FreshContext) {
       <p class="text-sm font-semibold w-full md:w-1/2 mx-auto text-center mt-12 mb-8">
         {/* see the current leaderboard <a href="/rankings" class="underline hover:text-secondary transition-all">here</a>
          */}
-         vote to help determine the <a href="/rankings" class="underline hover:text-secondary transition-all">hilltop hierarchy</a>.
+         each vote helps determine the <a href="/rankings" class="underline hover:text-secondary transition-all">hilltop hierarchy</a>.
       </p>
     </>
   );
