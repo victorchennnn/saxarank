@@ -8,7 +8,7 @@ export default function About() {
         we already know how competitive clubs are on campus. but does that truly mean they're the best? let's see :)
       </p>
       <p class="font-semibold mt-10">
-      rankings are determined by head-to-head battles between clubs. 
+      rankings are determined by head-to-head <a href="/" class="underline hover:text-primary">battles</a> between clubs. 
       in these battles, two random clubs get desplayed and ask you to choose which is better. 
       </p>
       <p class="font-semibold mt-10">

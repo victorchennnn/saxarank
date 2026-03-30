@@ -17,6 +17,7 @@ import * as $rankings from "./routes/rankings.tsx";
 import * as $AddClub from "./islands/AddClub.tsx";
 import * as $BattleIsland from "./islands/BattleIsland.tsx";
 import * as $ClubRankings from "./islands/ClubRankings.tsx";
+import * as $HeaderIsland from "./islands/HeaderIsland.tsx";
 import * as $MessageBox from "./islands/MessageBox.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -39,6 +40,7 @@ const manifest = {
     "./islands/AddClub.tsx": $AddClub,
     "./islands/BattleIsland.tsx": $BattleIsland,
     "./islands/ClubRankings.tsx": $ClubRankings,
+    "./islands/HeaderIsland.tsx": $HeaderIsland,
     "./islands/MessageBox.tsx": $MessageBox,
   },
   baseUrl: import.meta.url,

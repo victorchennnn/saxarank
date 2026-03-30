@@ -9,7 +9,7 @@ export default function AddPage() {
           want to see your club on the hierarchy?
         </p>
         <p class="text-sm font-semibold w-full md:w-3/4 mx-auto">
-          submit the name and website below.
+          submit the name and website for review.
         </p>
       </div>
       <AddClub />

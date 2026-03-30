@@ -31,6 +31,9 @@ export default async function Rankings(req: Request, _ctx: FreshContext) {
           <a href="/" class="underline hover:text-primary">battles</a>
           {""} 
         </p>
+        <p class="text-[10px] font-semibold w-full md:w-1/2 mx-auto mt-2 opacity-70">
+          <a href="/about" class="underline hover:text-primary">learn more</a>
+        </p>
       </div>
       <ClubRankings data={data} searchString={searchString} />
     </div>
