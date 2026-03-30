@@ -13,6 +13,7 @@ import * as $api_message from "./routes/api/message.ts";
 import * as $battle from "./routes/battle.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $message from "./routes/message.tsx";
+import * as $rankings from "./routes/rankings.tsx";
 import * as $AddClub from "./islands/AddClub.tsx";
 import * as $BattleIsland from "./islands/BattleIsland.tsx";
 import * as $ClubRankings from "./islands/ClubRankings.tsx";
@@ -32,6 +33,7 @@ const manifest = {
     "./routes/battle.tsx": $battle,
     "./routes/index.tsx": $index,
     "./routes/message.tsx": $message,
+    "./routes/rankings.tsx": $rankings,
   },
   islands: {
     "./islands/AddClub.tsx": $AddClub,

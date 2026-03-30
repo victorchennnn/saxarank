@@ -1,47 +1,28 @@
 import { FreshContext } from "$fresh/server.ts";
-import { ClubRankings } from "../islands/ClubRankings.tsx";
-import { getSupabaseClient } from "../util/supabase.ts";
+import { BattleIsland } from "../islands/BattleIsland.tsx";
 
-export default async function Home(req: Request, _ctx: FreshContext) {
-  const userAgent = req.headers.get("user-agent") || "";
-  const isMobile = userAgent.includes("Mobile");
-  const searchString = isMobile
-    ? ""
-    : (userAgent.includes("Mac") ? " (⌘ + k)" : " (ctrl + k)");
-
-  const supabase = getSupabaseClient();
-
-  const { data, error } = await supabase.from("clubs").select().order(
-    "elo",
-    { ascending: false },
-  );
-  if (error) {
-    return <p>Sorry, we encountered an error: {error.message}</p>;
-  }
-
+export default function Home(_req: Request, _ctx: FreshContext) {
   return (
-    <div class="w-full">
-      <div class="text-center my-8">
-        <p class="text-2xl font-semibold">the hilltop hierarchy</p>
-        <p class="text-sm mt-2 font-semibold w-full md:w-3/4 mx-auto">
-          which club on campus is the best?
+    <>
+      <div class="mt-8 mb-6 text-center w-full">
+        <p class="text-2xl font-semibold italic">welcome to saxarank</p>
+        <p class="text-sm font-semibold w-full md:w-3/4 mx-auto mt-2">
+          which club on campus is better?
         </p>
-        <p class="text-sm font-semibold w-full md:w-3/4 mx-auto">
-        rankings are updated daily and completely community-driven by head-to-head {" "}
-          <a href="/battle" class="underline hover:text-primary">battles</a>
-          {""} 
+        <p class="text-[10px] font-semibold w-full md:w-1/2 mx-auto mt-2 opacity-70">
+          click on your favorite club to cast your vote.
         </p>
-        <p class="text-sm font-semibold w-full md:w-3/4 mx-auto">
-          {/* we all see the results. */}
-        </p>
-        {/* <p class="text-[12px] italic mt-10">
-        a standard elo system is used to determine the ranking of each club. 
-        </p> */}
-        {/* <p class="text-[10px] font-light mt-1 w-full md:w-3/4 mx-auto opacity-70 italic">
-          made by your average stinky cs major
-        </p> */}
       </div>
-      <ClubRankings data={data} searchString={searchString} />
-    </div>
+      
+      <div class="w-full flex justify-center">
+        <BattleIsland />
+      </div>
+      
+      <p class="text-sm font-semibold w-full md:w-1/2 mx-auto text-center mt-12 mb-8">
+        {/* see the current leaderboard <a href="/rankings" class="underline hover:text-secondary transition-all">here</a>
+         */}
+         vote to help determine the <a href="/rankings" class="underline hover:text-secondary transition-all">hilltop hierarchy</a>.
+      </p>
+    </>
   );
 }

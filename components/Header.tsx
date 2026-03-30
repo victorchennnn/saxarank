@@ -11,10 +11,10 @@ export const Header = () => {
       </a>
       <div class="flex justify-right w-1/2 ml-12 text-xs tracking-widest items-center">
         <div class="flex mr-10">
-          <a class="hover:text-secondary ml-1" href="/">rankings</a>
+          <a class="hover:text-secondary ml-1" href="/rankings">rankings</a>
         </div>
         <div class="flex mr-10">
-          <a class="hover:text-secondary ml-1" href="/battle">battle</a>
+          <a class="hover:text-secondary ml-1" href="/">battle</a>
         </div>
         <div class="flex">
           <a class="hover:text-secondary ml-1" href="/add">add</a>
